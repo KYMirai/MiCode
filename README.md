@@ -1,7 +1,7 @@
 # MiCode
-&emsp;&emsp;本模块主要实现小米浏览器网页注入JS脚本功能。
-## 脚本语言
-&emsp;&emsp;本模块采用Javascript语言，当网页开始加载时（onPageStarted）,注入用户所启用的脚本。
+&emsp;&emsp;本模块主要实现小米浏览器网页注入JS脚本功能。编写脚本需要一定的Javascript基础。
+## 实现原理
+&emsp;&emsp;脚本采用Javascript语言。当目标网页开始加载时（onPageStarted）,模块将执行用户所启用的脚本。
 ##使用技巧
 ### JQuery库
 &emsp;&emsp;启用该库使编程更方便、简洁，若目标网页已存在JQuery，则使用目标网页的版本。  
