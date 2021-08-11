@@ -1,7 +1,7 @@
 # MiCode
 &emsp;&emsp;本模块主要实现小米浏览器网页注入JS脚本功能。编写脚本需要一定的Javascript基础。
 ## 获取模块
-&emsp;&emsp;[在github下载最新版本](https://github.com/KYMirai/MiCode/releases)
+&emsp;&emsp;[**在github下载最新版本**](https://github.com/KYMirai/MiCode/releases)
 ## 实现原理
 &emsp;&emsp;脚本采用Javascript语言。当目标网页开始加载时（onPageStarted）,模块将执行用户所启用的脚本。
 ## 使用技巧
