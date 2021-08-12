@@ -1,14 +1,13 @@
 {
   "version":1,
-  "matches":"none",
+  "matches":".*",
   "level":"2",
-  "msg":"",
-  "url":"https://github.com/KYMirai/MiCode_Doc",
+  "msg":"并没有新版本，某安啥也发不了[悲]，内测群666413866，欢迎反馈问题！",
+  "url":"https://KYMirai.github.com/MiCode",
   "notices":[
     {
-      "matches":"2",
-      "title":"内测组邀请",
-      "msg":"并没有新版本，某安啥也发不了[悲]，内测群666413866，欢迎反馈问题！"
+      "matches":"none",
+      "msg":""
     }
   ]
 }
