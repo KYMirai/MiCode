@@ -1,7 +1,7 @@
 {
   "version":2,
   "matches":"none",
-  "title":"发现新版本",
+  "title":"发现新版本 v1.1",
   "level":"2",
   "msg":"简单地适配部分油猴规则（@match、@require等），兼容部分基础的油猴脚本\n\n另外,内测群666413866，欢迎反馈问题！",
   "url":"https://github.com/KYMirai/MiCode/releases",
