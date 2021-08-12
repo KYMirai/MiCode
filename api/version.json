@@ -1,13 +1,17 @@
 {
-  "version":1,
-  "matches":".*",
+  "version":2,
+  "matches":"none",
+  "title":"发现新版本",
   "level":"2",
-  "msg":"并没有新版本，某安啥也发不了[悲]，内测群666413866，欢迎反馈问题！",
-  "url":"https://KYMirai.github.io/MiCode",
+  "msg":"简单地适配部分油猴规则（@match、@require等），兼容部分基础的油猴脚本\n\n另外,内测群666413866，欢迎反馈问题！",
+  "url":"https://github.com/KYMirai/MiCode/releases",
   "notices":[
     {
-      "matches":"none",
-      "msg":""
+      "matches":"2",
+      "url":"https://jq.qq.com/?_wv=1027&k=SWda3Ea6",
+      "level":"2",
+      "title":"内测邀请",
+      "msg":"新创内测群：666413866，欢迎反馈问题！"
     }
   ]
 }
