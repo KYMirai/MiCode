@@ -1,11 +1,1 @@
-{
-  "version":3,
-  "matches":"none",
-  "title":"发现新版本 v1.2",
-  "level":"2",
-  "msg":"修复1.1的bug\n简单地适配部分油猴规则（@match、@require等），兼容部分基础的油猴脚本\n\n另外,内测群666413866，欢迎反馈问题！",
-  "url":"https://github.com/KYMirai/MiCode/releases",
-  "notices":[
-    
-  ]
-}
+{"version":4,"matches":"none","title":"发现新版本 v2.0","level":"2","msg":"1.适配更多不同机型及版本\n2.支持via脚本一键导入\n3.支持油猴脚本-URL导入\n4.优化脚本规则兼容性\n5.适配氢流浏览器，非MIUI也能用了\n6.适配深色模式","url":"https://github.com/KYMirai/MiCode/releases","notices":[{"matches":"4","url":"https://jq.qq.com/?_wv=1027&k=SWda3Ea6","level":"2","title":"v2.0 新版特性","msg":"1.适配更多不同机型及版本\n2.支持via脚本一键导入\n3.支持油猴脚本-URL导入\n4.优化脚本规则兼容性\n5.适配氢流浏览器，非MIUI也能用了\n6.适配深色模式\n\n附：交流群：666413866，欢迎反馈问题！"}]}
