@@ -7,65 +7,89 @@
 ## 使用技巧
 ### JQuery库
 &emsp;&emsp;启用该库使编程更方便、简洁，若目标网页已存在JQuery，则使用目标网页的版本。  
-&emsp;&emsp;注意：本模块取消了默认的`$`函数，建议采用`jQuery`代替（注意区分大小写），亦可在使用前插入代码：`$ = jQuery;`
+&emsp;&emsp;~~注意：本模块取消了默认的`$`函数，建议采用`jQuery`代替（注意区分大小写），亦可在使用前插入代码：`$ = jQuery;`~~
 ### 加载完成后执行
 &emsp;&emsp;由于脚本在目标网页加载时执行，此时目标网页未加载任何元素，推荐在网页加载完成后执行，使用方法：
 ```javascript
-//需要启用JQuery(显而易见的)
-jQuery(() -> {
+$(() -> {
     //你的代码...
 });
 ```
-### 预置函数
+### 预置函数 v2.1+
 ```javascript
-_app.toast(msg)
+MiCode.toast(msg)
 ```
 &emsp;&emsp;悬浮显示一条内容为msg的Toast消息，短暂时间后自动消失。
 ```javascript
-_app.geUrl()
+MiCode.geUrl()
 ```
 &emsp;&emsp;获取当前网页的url地址。
 ```javascript
-_app.exit([code])
-```
-&emsp;&emsp;结束浏览器进程（完全退出），code默认为0。其实现原理为`System.exit(int code)`
-```javascript
-_app.openUrl(url)
+MiCode.openUrl(url)
 ```
 &emsp;&emsp;打开网页为url的新窗口。
 ```javascript
-_app.openBookmark()
+MiCode.openBookmark()
 ```
 &emsp;&emsp;打开书签。
 ```javascript
-_app.openHistory()
+MiCode.openHistory()
 ```
 &emsp;&emsp;打开历史记录。
 ```javascript
-_app.openManager()
+MiCode.openManager()
 ```
 &emsp;&emsp;打开脚本管理界面。
 ```javascript
-_app.putString(key, value)
+MiCode.setClipboard(text)
 ```
-&emsp;&emsp;保存字符串，该类函数均为全局通用。
+&emsp;&emsp;复制文本，亦可使用`MiCode.copy(text)`
 ```javascript
-_app.getString(key[, defaultValue])
+MiCode.addStyle(css)
 ```
-&emsp;&emsp;读取字符串，默认值为defaultValue。
+&emsp;&emsp;添加style标签块
+
+
+
+
 ```javascript
-_app.putNumber(key, value)
+MiCode.setValue(key, value)
 ```
-&emsp;&emsp;保存数字//支持小数、整数、长整数，但不建议过大(long to int，你懂的)
+&emsp;&emsp;保存数据,已支持各种数据类型及对象，各脚本间数据独立。
 ```javascript
-_app.getNumber(key[, defaultValue])
+MiCode.getValue(key[, defaultValue])
 ```
-&emsp;&emsp;读取数字，默认值为defaultValue（空时为0）。
+&emsp;&emsp;读取数据，默认值为defaultValue（空时为`null`）。
 ```javascript
-_app.putBoolean(key, value)
+MiCode.listValues()
 ```
-&emsp;&emsp;保存布尔值
+&emsp;&emsp;获取由所有储存数据的键组成的数组。
 ```javascript
-_app.getBoolean(key[, defaultValue])
+MiCode.deleteValue(key)
 ```
-&emsp;&emsp;读取布尔值，默认值为defaultValue（空时为false）。
+&emsp;&emsp;删除指定键。
+
+
+
+
+<!-- ```javascript
+_MiCode.setValue(namespace, key, value) //不推荐
+```
+&emsp;&emsp;~~\[不推荐\] 保存数据, namespace可以是任意字符， 同一namespace内数据共享~~
+```javascript
+_MiCode.getValue(namespace, key, defaultValue) //不推荐
+```
+&emsp;&emsp;~~\[不推荐\] 读取数据，默认值为defaultValue。~~ -->
+
+
+
+
+
+```javascript
+MiCode.log(...args)
+```
+&emsp;&emsp;向xposed输出日志。
+```javascript
+MiCode.exit([code])
+```
+&emsp;&emsp;结束浏览器进程（完全退出），code默认为0。其实现原理为`System.exit(int code)`
