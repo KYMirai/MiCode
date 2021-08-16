@@ -6,10 +6,7 @@
 // @include      *://*.silisili.in/*
 // @grant        JQuery
 // @compatible   MiCode
-// @require      http://code.jquery.com/jquery-1.11.0.min.js
 // ==/UserScript==
-
-let MiCode = { toast: text => console.log(text) }
 
 function modify() {
     // 禁止alert弹窗，改为Toast消息
