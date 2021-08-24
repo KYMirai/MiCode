@@ -6,11 +6,5 @@
 	"msg": "1.大幅度提升脚本兼容能力\n2.适配更多油猴的内置函数\n3.重做内置函数库，详见文档\n4.对脚本排序，方便管理\n5.修复部分URL规则不匹配bug\n6.修复脚本重命名失败bug",
 	"baseUrl": "https://github.com/KYMirai/MiCode/releases",
 	"url": "https://www.coolapk.com/apk/xyz.kymirai.micode",
-	"notices": [{
-		"matches": "5",
-		"url": "https://jq.qq.com/?_wv=1027&k=SWda3Ea6",
-		"level": "2",
-		"title": "v2.1 新版特性",
-		"msg": "1.大幅度提升脚本兼容能力\n2.适配更多油猴的内置函数\n3.重做内置函数库，详见文档\n4.对脚本排序，方便管理\n5.修复部分URL规则不匹配bug\n6.修复脚本重命名失败bug\n\n附：交流群：666413866，欢迎反馈问题！"
-	}]
+	"notices": []
 }
