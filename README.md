@@ -42,11 +42,15 @@ MiCode.openManager()
 ```javascript
 MiCode.setClipboard(text)
 ```
-&emsp;&emsp;复制文本，亦可使用`MiCode.copy(text)`
+&emsp;&emsp;复制文本，亦可使用`MiCode.copy(text)`。
 ```javascript
 MiCode.addStyle(css)
 ```
-&emsp;&emsp;添加style标签块
+&emsp;&emsp;添加style标签块。
+```javascript
+MiCode.xmlhttpRequest(details)
+```
+&emsp;&emsp;网络请求，详见油猴`GM_xmlhttpRequest`。
 
 
 
