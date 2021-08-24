@@ -14,7 +14,7 @@ $(() -> {
     //你的代码...
 });
 ```
-### 预置函数 v2.1+
+### 预置函数 v2.0+
 ```javascript
 MiCode.toast(msg)
 ```
@@ -50,7 +50,7 @@ MiCode.addStyle(css)
 ```javascript
 MiCode.xmlhttpRequest(details)
 ```
-&emsp;&emsp;网络请求，详见油猴`GM_xmlhttpRequest`。
+&emsp;&emsp;(v2.2+)网络请求，详见油猴`GM_xmlhttpRequest`。
 
 
 
