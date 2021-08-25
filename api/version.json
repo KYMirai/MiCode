@@ -5,5 +5,6 @@
 	"level": "2",
 	"msg": "1.适配更多油猴函数\n2.添加自定义UA功能\n3.提高脚本兼容性\n4.优化启动速度(大概\n5.增加模块自检功能\n6.适配小米平板5",
 	"url": "https://www.coolapk.com/apk/xyz.kymirai.micode",
+	"url_base": "https://github.com/KYMirai/MiCode/releases",
 	"notices": []
 }
