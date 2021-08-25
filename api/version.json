@@ -1,10 +1,9 @@
 {
-	"version": 5,
+	"version": 7,
 	"matches": "none",
-	"title": "发现新版本 v2.1",
+	"title": "发现新版本 v2.2",
 	"level": "2",
-	"msg": "1.大幅度提升脚本兼容能力\n2.适配更多油猴的内置函数\n3.重做内置函数库，详见文档\n4.对脚本排序，方便管理\n5.修复部分URL规则不匹配bug\n6.修复脚本重命名失败bug",
-	"baseUrl": "https://github.com/KYMirai/MiCode/releases",
+	"msg": "1.适配更多油猴函数\n2.添加自定义UA功能\n3.提高脚本兼容性\n4.优化启动速度(大概\n5.增加模块自检功能\n6.适配小米平板5",
 	"url": "https://www.coolapk.com/apk/xyz.kymirai.micode",
 	"notices": []
 }
