@@ -1,9 +1,9 @@
 {
-	"version": 7,
+	"version": 8,
 	"matches": "none",
-	"title": "发现新版本 v2.2",
+	"title": "发现新版本 v2.3",
 	"level": "2",
-	"msg": "1.适配更多油猴函数\n2.添加自定义UA功能\n3.提高脚本兼容性\n4.优化启动速度(大概\n5.增加模块自检功能\n6.适配小米平板5",
+	"msg": "1.兼容油猴函数:GM_getResourceText,GM_getResourceURL\n2.使用MIUI风格的UI界面\n3.统一代码风格，旧代码将自动转换油猴脚本格式\n4.适配小米浏览器国际版(com.mi.globalbrowser)\n5.修复适配小米平板5",
 	"url": "https://www.coolapk.com/apk/xyz.kymirai.micode",
 	"url_base": "https://github.com/KYMirai/MiCode/releases",
 	"notices": []
